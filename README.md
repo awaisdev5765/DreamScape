@@ -105,7 +105,11 @@ Create a feature branch, keep changes focused, run the app on an iOS 17+ simulat
 
 If DreamScape helps you unwind, you can support continued development with a coffee:
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-FFDD00?logo=buy-me-a-coffee&logoColor=000000)](https://buymeacoffee.com/awaisdev572)
+<p align="center">
+  <a href="https://buymeacoffee.com/awaisdev572">
+    <img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=%E2%98%95&slug=awaisdev572&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" alt="Buy me a coffee" height="60">
+  </a>
+</p>
 
 Every contribution helps fund new meditations, accessibility improvements, testing, and future releases.
 
