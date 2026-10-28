@@ -1,0 +1,19 @@
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# Local secrets and machine-specific configuration
+.env*
+GoogleService-Info.plist
+*.p12
+*.mobileprovision
+

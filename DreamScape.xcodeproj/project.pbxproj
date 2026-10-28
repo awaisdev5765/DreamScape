@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070E2D0A53EF5F9D74F24AC7 /* SleepModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F423BF9C072D63E959555 /* SleepModeView.swift */; };
+		18D86DDF42E64B60E0DFC430 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD90E9D9E60AF4C10BA6548 /* SettingsView.swift */; };
+		1A619AF679DBC25F1713E448 /* Meditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E700948D382894EF3F34F82 /* Meditation.swift */; };
+		30B8FB07C839A1D7D7FB1E5D /* SleepScoreRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804A48418CE8B1009A0E895A /* SleepScoreRing.swift */; };
+		4344604C328F98A147609853 /* StarfieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1443D1195C9A26B7A3264E46 /* StarfieldView.swift */; };
+		4FE7BD92ECD2309A62093D37 /* SleepLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C77F2B3CB3C35EE4A4B4B0 /* SleepLog.swift */; };
+		5C94226890E1DF8FAF34CAAD /* LiquidGlass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA98BF07F5A44DD062826E77 /* LiquidGlass.swift */; };
+		6B5EAEC5C17FA5B410B95C59 /* AmbientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62B73094EC8E378E6CCAB43 /* AmbientBackground.swift */; };
+		761A8800ADBA7AB5AA076A2F /* MeditationLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1237D21F97E4372B69F52CE /* MeditationLibraryView.swift */; };
+		8544D5A940874C1D2E0D4883 /* MeditationPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505A00DADAB429579A9024D2 /* MeditationPlayerView.swift */; };
+		854D81A08FE87AF27F575C4F /* DreamScapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86CB6703EEAF56C4A3C93E5 /* DreamScapeApp.swift */; };
+		8706545685B9B81ED2A2C924 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2198F99C0F7260BFA7DD45E /* ContentView.swift */; };
+		87AE018101437E9BBB2DE620 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7763A33AD15CD869E549539 /* User.swift */; };
+		A8318D982A4C9E2967077665 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F94AEEAD2FF8C9DDA79EAAD /* FirebaseService.swift */; };
+		B2014447935862B3CB69433B /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098CEDD6DA702FCFC37CA9C0 /* Haptics.swift */; };
+		B4F33FFF801910738AE3F821 /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67941A6F7EE2F1F3B151E710 /* GlassCard.swift */; };
+		B751A46DD004C40F38B8B147 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F30F9FABC26D1E23019A3C /* SubscriptionView.swift */; };
+		BE0AD1393DD67241BF6DE3C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E96A683E0F86C4B1D1AC4E28 /* Assets.xcassets */; };
+		C2F53250C1984FEC299914F4 /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8011E5F0F8A31CEE6DEA92CE /* AudioService.swift */; };
+		C8CD1B338024F0EC434B28DD /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54FC3B2D7C8358D7B5D79A /* AppState.swift */; };
+		CAA9CCC5147AE45E5E5B9D33 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A4A77DDAA3FD072337268 /* OnboardingView.swift */; };
+		DF2672511AF0722FB30867D2 /* MorningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E46190296F4A258AD0477 /* MorningView.swift */; };
+		E00D5A45C40F9A4408972AA2 /* BreathingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A275A855286AC34B435B18D1 /* BreathingCircle.swift */; };
+		F203B2C090AFFD680326A96A /* SoundMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F179105E3A5BD1AD0C8DD8 /* SoundMixer.swift */; };
+		F5D5DF12F0921090B931E647 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EE801AB82807D556B080A /* Typography.swift */; };
+		F74221A345548A75CC5332F9 /* InsightsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052598BA1AA254DFEA77F2B /* InsightsEngine.swift */; };
+		F837A0DB1BF569C8DF4D97AB /* StoreKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD057B8A1D978C11D16CBB /* StoreKitService.swift */; };
+		FAE72B2F328721320909DC06 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781057B937A8A7C3F93248E5 /* HomeView.swift */; };
+		FB89FC7BA3216ACE53DC6A34 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CE76B51B58E504DEA4C43A /* Theme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		098CEDD6DA702FCFC37CA9C0 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		0DBD057B8A1D978C11D16CBB /* StoreKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitService.swift; sourceTree = "<group>"; };
+		0F94AEEAD2FF8C9DDA79EAAD /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		1052598BA1AA254DFEA77F2B /* InsightsEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsEngine.swift; sourceTree = "<group>"; };
+		1443D1195C9A26B7A3264E46 /* StarfieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarfieldView.swift; sourceTree = "<group>"; };
+		200A4A77DDAA3FD072337268 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		22CE76B51B58E504DEA4C43A /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		2D54FC3B2D7C8358D7B5D79A /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		38F179105E3A5BD1AD0C8DD8 /* SoundMixer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundMixer.swift; sourceTree = "<group>"; };
+		4D5E46190296F4A258AD0477 /* MorningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningView.swift; sourceTree = "<group>"; };
+		4E700948D382894EF3F34F82 /* Meditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation.swift; sourceTree = "<group>"; };
+		505A00DADAB429579A9024D2 /* MeditationPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationPlayerView.swift; sourceTree = "<group>"; };
+		5E6EE801AB82807D556B080A /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		67941A6F7EE2F1F3B151E710 /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		68F30F9FABC26D1E23019A3C /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		781057B937A8A7C3F93248E5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8011E5F0F8A31CEE6DEA92CE /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
+		804A48418CE8B1009A0E895A /* SleepScoreRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepScoreRing.swift; sourceTree = "<group>"; };
+		825CB5BC7A7B56A21C63BE14 /* DreamScape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamScape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84489D985408A03E27F4DE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		921F423BF9C072D63E959555 /* SleepModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepModeView.swift; sourceTree = "<group>"; };
+		A2198F99C0F7260BFA7DD45E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A275A855286AC34B435B18D1 /* BreathingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingCircle.swift; sourceTree = "<group>"; };
+		B7763A33AD15CD869E549539 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B7C77F2B3CB3C35EE4A4B4B0 /* SleepLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepLog.swift; sourceTree = "<group>"; };
+		CAD90E9D9E60AF4C10BA6548 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E1237D21F97E4372B69F52CE /* MeditationLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationLibraryView.swift; sourceTree = "<group>"; };
+		E62B73094EC8E378E6CCAB43 /* AmbientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientBackground.swift; sourceTree = "<group>"; };
+		E86CB6703EEAF56C4A3C93E5 /* DreamScapeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamScapeApp.swift; sourceTree = "<group>"; };
+		E96A683E0F86C4B1D1AC4E28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA98BF07F5A44DD062826E77 /* LiquidGlass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidGlass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0205C5231E126A3A32D13382 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CAD90E9D9E60AF4C10BA6548 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		06E07EE6ED576829C77F8BE8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E96A683E0F86C4B1D1AC4E28 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1CED0FAEB2DDD34EBCBF5D1F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8011E5F0F8A31CEE6DEA92CE /* AudioService.swift */,
+				0F94AEEAD2FF8C9DDA79EAAD /* FirebaseService.swift */,
+				1052598BA1AA254DFEA77F2B /* InsightsEngine.swift */,
+				0DBD057B8A1D978C11D16CBB /* StoreKitService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2D68BFACB58C33A80BA19503 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2D54FC3B2D7C8358D7B5D79A /* AppState.swift */,
+				A2198F99C0F7260BFA7DD45E /* ContentView.swift */,
+				E86CB6703EEAF56C4A3C93E5 /* DreamScapeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3A25AC3FDDA4EB99AF97FD61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4E700948D382894EF3F34F82 /* Meditation.swift */,
+				B7C77F2B3CB3C35EE4A4B4B0 /* SleepLog.swift */,
+				B7763A33AD15CD869E549539 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4B6087931027AB3882E1BAE6 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				200A4A77DDAA3FD072337268 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		50F9103EA9D60FB7B5B43870 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		76E05CF94537ECB204AB01DD /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				098CEDD6DA702FCFC37CA9C0 /* Haptics.swift */,
+				EA98BF07F5A44DD062826E77 /* LiquidGlass.swift */,
+				22CE76B51B58E504DEA4C43A /* Theme.swift */,
+				5E6EE801AB82807D556B080A /* Typography.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		895980347980551B684CA0CA /* Morning */ = {
+			isa = PBXGroup;
+			children = (
+				4D5E46190296F4A258AD0477 /* MorningView.swift */,
+			);
+			path = Morning;
+			sourceTree = "<group>";
+		};
+		99456AD82FC70EB0D14ACA3E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				781057B937A8A7C3F93248E5 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A848D0264C765798BCE540D0 = {
+			isa = PBXGroup;
+			children = (
+				E977EAA341B52951746EF4C8 /* DreamScape */,
+				C83ACC8A7FA99C80F55BAD59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABE4429F37DB7B85A5A76C0A /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				68F30F9FABC26D1E23019A3C /* SubscriptionView.swift */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		ADFB2F4AD02A64543802A753 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E62B73094EC8E378E6CCAB43 /* AmbientBackground.swift */,
+				A275A855286AC34B435B18D1 /* BreathingCircle.swift */,
+				67941A6F7EE2F1F3B151E710 /* GlassCard.swift */,
+				804A48418CE8B1009A0E895A /* SleepScoreRing.swift */,
+				38F179105E3A5BD1AD0C8DD8 /* SoundMixer.swift */,
+				1443D1195C9A26B7A3264E46 /* StarfieldView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C81DE232943A0AE4C51B9919 /* Meditation */ = {
+			isa = PBXGroup;
+			children = (
+				E1237D21F97E4372B69F52CE /* MeditationLibraryView.swift */,
+				505A00DADAB429579A9024D2 /* MeditationPlayerView.swift */,
+			);
+			path = Meditation;
+			sourceTree = "<group>";
+		};
+		C83ACC8A7FA99C80F55BAD59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				825CB5BC7A7B56A21C63BE14 /* DreamScape.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC908F8B8E7F59C520C2507E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99456AD82FC70EB0D14ACA3E /* Home */,
+				C81DE232943A0AE4C51B9919 /* Meditation */,
+				895980347980551B684CA0CA /* Morning */,
+				4B6087931027AB3882E1BAE6 /* Onboarding */,
+				0205C5231E126A3A32D13382 /* Settings */,
+				FC4F0CD69AAB6BF451DB9066 /* SleepMode */,
+				ABE4429F37DB7B85A5A76C0A /* Subscription */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E977EAA341B52951746EF4C8 /* DreamScape */ = {
+			isa = PBXGroup;
+			children = (
+				84489D985408A03E27F4DE68 /* Info.plist */,
+				2D68BFACB58C33A80BA19503 /* App */,
+				ADFB2F4AD02A64543802A753 /* Components */,
+				76E05CF94537ECB204AB01DD /* DesignSystem */,
+				3A25AC3FDDA4EB99AF97FD61 /* Models */,
+				06E07EE6ED576829C77F8BE8 /* Resources */,
+				1CED0FAEB2DDD34EBCBF5D1F /* Services */,
+				50F9103EA9D60FB7B5B43870 /* ViewModels */,
+				DC908F8B8E7F59C520C2507E /* Views */,
+			);
+			path = DreamScape;
+			sourceTree = "<group>";
+		};
+		FC4F0CD69AAB6BF451DB9066 /* SleepMode */ = {
+			isa = PBXGroup;
+			children = (
+				921F423BF9C072D63E959555 /* SleepModeView.swift */,
+			);
+			path = SleepMode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA64D66C99CCB2F41BC3D1B5 /* DreamScape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 809989FE313ABDE07FDD21A1 /* Build configuration list for PBXNativeTarget "DreamScape" */;
+			buildPhases = (
+				BDEE5A7CDBBA9E6CF01FE80C /* Sources */,
+				5E96FAE7F86411840DE12579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamScape;
+			packageProductDependencies = (
+			);
+			productName = DreamScape;
+			productReference = 825CB5BC7A7B56A21C63BE14 /* DreamScape.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		539BFDD820806A2FD150151A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					AA64D66C99CCB2F41BC3D1B5 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 941B04CF9BB9243DC2436322 /* Build configuration list for PBXProject "DreamScape" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A848D0264C765798BCE540D0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C83ACC8A7FA99C80F55BAD59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA64D66C99CCB2F41BC3D1B5 /* DreamScape */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E96FAE7F86411840DE12579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0AD1393DD67241BF6DE3C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDEE5A7CDBBA9E6CF01FE80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5EAEC5C17FA5B410B95C59 /* AmbientBackground.swift in Sources */,
+				C8CD1B338024F0EC434B28DD /* AppState.swift in Sources */,
+				C2F53250C1984FEC299914F4 /* AudioService.swift in Sources */,
+				E00D5A45C40F9A4408972AA2 /* BreathingCircle.swift in Sources */,
+				8706545685B9B81ED2A2C924 /* ContentView.swift in Sources */,
+				854D81A08FE87AF27F575C4F /* DreamScapeApp.swift in Sources */,
+				A8318D982A4C9E2967077665 /* FirebaseService.swift in Sources */,
+				B4F33FFF801910738AE3F821 /* GlassCard.swift in Sources */,
+				B2014447935862B3CB69433B /* Haptics.swift in Sources */,
+				FAE72B2F328721320909DC06 /* HomeView.swift in Sources */,
+				F74221A345548A75CC5332F9 /* InsightsEngine.swift in Sources */,
+				5C94226890E1DF8FAF34CAAD /* LiquidGlass.swift in Sources */,
+				1A619AF679DBC25F1713E448 /* Meditation.swift in Sources */,
+				761A8800ADBA7AB5AA076A2F /* MeditationLibraryView.swift in Sources */,
+				8544D5A940874C1D2E0D4883 /* MeditationPlayerView.swift in Sources */,
+				DF2672511AF0722FB30867D2 /* MorningView.swift in Sources */,
+				CAA9CCC5147AE45E5E5B9D33 /* OnboardingView.swift in Sources */,
+				18D86DDF42E64B60E0DFC430 /* SettingsView.swift in Sources */,
+				4FE7BD92ECD2309A62093D37 /* SleepLog.swift in Sources */,
+				070E2D0A53EF5F9D74F24AC7 /* SleepModeView.swift in Sources */,
+				30B8FB07C839A1D7D7FB1E5D /* SleepScoreRing.swift in Sources */,
+				F203B2C090AFFD680326A96A /* SoundMixer.swift in Sources */,
+				4344604C328F98A147609853 /* StarfieldView.swift in Sources */,
+				F837A0DB1BF569C8DF4D97AB /* StoreKitService.swift in Sources */,
+				B751A46DD004C40F38B8B147 /* SubscriptionView.swift in Sources */,
+				FB89FC7BA3216ACE53DC6A34 /* Theme.swift in Sources */,
+				F5D5DF12F0921090B931E647 /* Typography.swift in Sources */,
+				87AE018101437E9BBB2DE620 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		60EBDEF3AC74C4B0A515994D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8URAQU9VL4;
+				INFOPLIST_FILE = DreamScape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamscape.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CFC36CC9DADA4FA1E02813A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8URAQU9VL4;
+				INFOPLIST_FILE = DreamScape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamscape.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C53CD4215B3E63215A4DE2ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DreamScape/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamscape.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D2C95D952274F52ABE74FCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DreamScape/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamscape.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		809989FE313ABDE07FDD21A1 /* Build configuration list for PBXNativeTarget "DreamScape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EBDEF3AC74C4B0A515994D /* Debug */,
+				6CFC36CC9DADA4FA1E02813A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		941B04CF9BB9243DC2436322 /* Build configuration list for PBXProject "DreamScape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53CD4215B3E63215A4DE2ED /* Debug */,
+				D2C95D952274F52ABE74FCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 539BFDD820806A2FD150151A /* Project object */;
+}
