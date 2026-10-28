@@ -101,6 +101,14 @@ Keep Firebase files, signing assets, API keys, and local environment files out o
 
 Create a feature branch, keep changes focused, run the app on an iOS 17+ simulator, and include screenshots for meaningful UI changes. Do not commit secrets or generated build products.
 
+## Support the project
+
+If DreamScape helps you unwind, you can support continued development with a coffee:
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-FFDD00?logo=buy-me-a-coffee&logoColor=000000)](https://buymeacoffee.com/awaisdev572)
+
+Every contribution helps fund new meditations, accessibility improvements, testing, and future releases.
+
 ## License
 
 No license has been selected yet. Until one is added, all rights are reserved by the project owner.
